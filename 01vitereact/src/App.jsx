@@ -1,8 +1,13 @@
-
+import Practice from "./prac";
 function App() {
 
   return (
-    <h1>Hello World! | This is running on VITE</h1>
+    //here <> is a fragment as jsx needs to return a single element we return this within many elements.
+    <>
+    <Practice/>/* funtion name*/
+    <h1>HELLO</h1>
+    <p>Test para</p>
+    </>
   )
 }
 
